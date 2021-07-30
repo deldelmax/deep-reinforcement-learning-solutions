@@ -8,7 +8,7 @@ Results are averaged over 5 runs:
 * Sarsa: 9.22
 * Sarsamax: 9.21
 
-See below for problem statement and an explanation for the setup and metric.
+See below for the problem statement and an explanation for the setup and metric.
 
 ### Getting Started
 
