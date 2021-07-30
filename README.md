@@ -14,7 +14,7 @@ This repository contains my solutions to the Labs / Projects of Udacity's [Deep 
 
 ### Labs / Projects
 
-The labs and projects can be found below.  All of the projects use rich simulation environments from [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents). In the [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program, you will receive a review of your project.  These reviews are meant to give you personalized feedback and to tell you what can be improved in your code.
+The labs and projects can be found below.  All of the projects use rich simulation environments from [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents). In the [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program, I received reviews of my projects.
 
 - [x] [The Taxi Problem](https://github.com/maksym-del/deep-reinforcement-learning/tree/master/lab-taxi): In this lab, you will train a taxi to pick up and drop off passengers.
 - [ ] [Navigation](https://github.com/maksym-del/deep-reinforcement-learning/tree/master/p1_navigation): In the first project, you will train an agent to collect yellow bananas while avoiding blue bananas.
@@ -23,7 +23,7 @@ The labs and projects can be found below.  All of the projects use rich simulati
 
 ### Tutorials
 
-The tutorials lead you through implementing various algorithms in reinforcement learning.  All of the code is in PyTorch (v0.4) and Python 3.
+The tutorials led me through implementing various algorithms in reinforcement learning.  All of the code is in PyTorch (v0.4) and Python 3.
 
 - [x] [Dynamic Programming](https://github.com/maksym-del/deep-reinforcement-learning/tree/master/dynamic-programming): Implement Dynamic Programming algorithms such as Policy Evaluation, Policy Improvement, Policy Iteration, and Value Iteration. 
 - [x] [Monte Carlo](https://github.com/udacity/deep-reinforcement-learning/tree/master/monte-carlo): Implement Monte Carlo methods for prediction and control. 
@@ -43,7 +43,7 @@ The tutorials lead you through implementing various algorithms in reinforcement 
 
 ### Resources
 
-* [Cheatsheet](https://github.com/maksym-del/deep-reinforcement-learning/blob/master/cheatsheet): You are encouraged to use [this PDF file](https://github.com/udacity/deep-reinforcement-learning/blob/master/cheatsheet/cheatsheet.pdf) to guide your study of reinforcement learning. 
+* [RL Cheatsheet](https://github.com/maksym-del/deep-reinforcement-learning/blob/master/cheatsheet): [The PDF file](https://github.com/udacity/deep-reinforcement-learning/blob/master/cheatsheet/cheatsheet.pdf) contains key definitions, formulas and pseudocodes. 
 
 ## OpenAI Gym Benchmarks
 
