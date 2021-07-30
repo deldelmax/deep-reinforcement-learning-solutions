@@ -7,7 +7,7 @@
 
 ![Trained Agents][image1]
 
-This repository contains my solutions to the Labs / Projects of Udacity's [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program in addition to the materials provided [here](https://github.com/udacity/deep-reinforcement-learning).
+This repository contains my solutions to the Labs / Projects of Udacity's [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program in addition to the default materials provided [here](https://github.com/udacity/deep-reinforcement-learning).
 
 
 ## Table of Contents
