@@ -30,7 +30,7 @@ The tutorials led me through implementing various algorithms in reinforcement le
 - [x] [Temporal-Difference](https://github.com/maksym-del/deep-reinforcement-learning/tree/master/temporal-difference): Implement Temporal-Difference methods such as Sarsa, Q-Learning, and Expected Sarsa. 
 - [x] [Discretization](https://github.com/maksym-del/deep-reinforcement-learning/tree/master/discretization): Learn how to discretize continuous state spaces, and solve the Mountain Car environment.
 - [x] [Tile Coding](https://github.com/maksym-del/deep-reinforcement-learning/tree/master/tile-coding): Implement a method for discretizing continuous state spaces that enables better generalization.
-- [ ] [Deep Q-Network](https://github.com/maksym-del/deep-reinforcement-learning/tree/master/dqn): Explore how to use a Deep Q-Network (DQN) to navigate a space vehicle without crashing.
+- [x] [Deep Q-Network](https://github.com/maksym-del/deep-reinforcement-learning/tree/master/dqn): Explore how to use a Deep Q-Network (DQN) to navigate a space vehicle without crashing.
 - [ ] [Robotics](https://github.com/dusty-nv/jetson-reinforcement): Use a C++ API to train reinforcement learning agents from virtual robotic simulation in 3D. (_External link_)
 - [ ] [Hill Climbing](https://github.com/maksym-del/deep-reinforcement-learning/tree/master/hill-climbing): Use hill climbing with adaptive noise scaling to balance a pole on a moving cart.
 - [ ] [Cross-Entropy Method](https://github.com/maksym-del/deep-reinforcement-learning/tree/master/cross-entropy): Use the cross-entropy method to train a car to navigate a steep hill.
