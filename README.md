@@ -93,6 +93,7 @@ To set up your python environment to run the code in this repository, follow the
     git clone https://github.com/deldelmax/deep-reinforcement-learning-solutions.git
     cd deep-reinforcement-learning/python
     pip install .
+	pip install gym[all]
     ```
 
 5. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.    
