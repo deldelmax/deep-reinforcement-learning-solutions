@@ -36,7 +36,7 @@ def interact(env, agent, num_episodes=20000, window=100):
             # agent performs the selected action
             next_state, reward, done, _ = env.step(action)
             # agent performs internal updates based on sampled experience
-            agent.step(state, action, reward, next_state, done, eps=1./i_episode)
+            agent.step(state, action, reward, next_state, done)
             # update the sampled reward
             samp_reward += reward
             # update the state (s <- s') to next time step

@@ -1,12 +1,12 @@
 # Taxi Problem
 
-I implemented Sarsamax (Q-learning), Sarsa (Sarsa0), and ExpectedSarsa Temporal Difference Algorithms to solve the task.
+I implemented Sarsamax (Q-learning), Sarsa (Sarsa0), and ExpectedSarsa Temporal Difference Algorithms to solve the TaxiEnvV3.
 
 Results are averaged over 5 runs:
 
-* Expected Sarsa: 9.26
-* Sarsa: 9.22
-* Sarsamax: 9.21
+* Expected Sarsa: 8.36
+* Sarsamax: 8.41
+* Sarsa: 8.34
 
 See below for the problem statement and an explanation for the setup and metric.
 
