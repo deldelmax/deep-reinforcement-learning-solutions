@@ -2,7 +2,8 @@ import unittest
 import copy
 from IPython.display import Markdown, display
 import numpy as np
-from frozenlake import FrozenLakeEnv
+import gym
+#from frozenlake import FrozenLakeEnv
 
 def printmd(string):
     display(Markdown(string))
@@ -47,7 +48,10 @@ def policy_iteration_soln(env, gamma=1, theta=1e-8):
         policy = copy.copy(new_policy)
     return policy, V
 
-env = FrozenLakeEnv()
+#env = FrosenLake()
+env = gym.make("FrozenLake-v1")
+env.nA = env.action_space.n
+env.nS = env.observation_space.n
 random_policy = np.ones([env.nS, env.nA]) / env.nA
 
 class Tests(unittest.TestCase):

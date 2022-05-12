@@ -9,6 +9,8 @@
 
 This repository contains my solutions to the Labs / Projects of Udacity's [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program in addition to the default materials provided [here](https://github.com/udacity/deep-reinforcement-learning).
 
+I also updated the code to work with newest versions of the environmetns and OpenAI gym. 
+I use python 3.10+ for the solutions!
 
 ## Table of Contents
 
