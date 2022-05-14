@@ -85,8 +85,13 @@ class Agent():
         """
         states, actions, rewards, next_states, dones = experiences
 
-        ## TODO: compute and minimize the loss
-        "*** YOUR CODE HERE ***"
+        with torch.no_grad():
+            target_action_vals = rewards + gamma * self.qnetwork_target.forward(next_states)
+        local_action_vals = self.qnetwork_local.forward(states)
+        loss = F.mse_loss(input=local_action_vals, target=target_action_vals)
+        loss.backward()
+        self.optimizer.step()
+        self.optimizer.zero_grad()
 
         # ------------------- update target network ------------------- #
         self.soft_update(self.qnetwork_local, self.qnetwork_target, TAU)                     
