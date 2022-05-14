@@ -16,14 +16,13 @@ class QNetwork(nn.Module):
         """
         super().__init__()
         self.seed = torch.manual_seed(seed)
-
+        hs = 256
         self.net = nn.Sequential(
-            nn.Linear(state_size, state_size * 4),
+            nn.Linear(state_size, hs),
             nn.ReLU(),
-            nn.Linear(state_size * 4, state_size),
+            nn.Linear(hs, hs),
             nn.ReLU(),
-            nn.Linear(state_size, action_size),
-            nn.ReLU(),
+            nn.Linear(hs, action_size),
         )
 
     def forward(self, state):
