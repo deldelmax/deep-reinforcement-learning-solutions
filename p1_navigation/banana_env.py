@@ -26,7 +26,7 @@ class BananaEnv(gym.Env):
             done = env_info.local_done[0]
             return next_state, reward, done
 
-    def reset(self, seed=None, return_info=False, options=None):
+    def reset(self, seed=None, return_info=False, options={"train_mode": True}):
         # We need the following line to seed self.np_random
         #super().reset()
         env_info = self._unity_env.reset(train_mode=options["train_mode"])[self._brain_name]                
